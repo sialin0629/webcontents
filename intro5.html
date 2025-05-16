@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>자기소개</title>
+
+  <style>
+    body {
+      background: aliceblue;
+    }
+
+    header h1 {
+      color: brown;
+      text-align: center;
+    }
+
+    p {
+      text-indent: 1em;
+      font-size: 1em;
+      font-family: "휴먼편지체";
+    }
+
+    nav ul {
+      border: 1px solid blue;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    h3 {
+      text-shadow: 3px 3px 3px skyblue;
+    }
+
+    table { border-collapse: collapse; }
+
+    td, th {
+      text-align: left;
+      padding: 5px;
+      height: 15px;
+      width: 100px;
+    }
+
+    thead, tfoot {
+      background: darkgray;
+      color: yellow;
+    }
+
+    tbody tr:nth-child(even) {
+      background: aliceblue;
+    }
+
+    tbody tr:hover {
+      background: pink;
+    }
+
+    footer {
+      background: orange;
+      border-radius: 5px 5px 5px 5px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>오제무</h1>
+    <hr>
+    <p>안녕하세요. 풀스택 개발자를 꿈꾸는 오제무입니다. <br> 열정을 가지고 성장해 나가겠습니다</p>
+
+    <audio src="/webcontents/media/audio1.m4a" controls></audio>
+  </header>
+
+  <nav>
+    <h3>Nav</h3>
+    <hr>
+    <ul>
+      <li><a href="#Info">Info</a></li>
+      <li><a href="#Interest">Interest</a></li>
+      <li><a href="#Hobby">Hobby</a></li>
+      <li><a href="#Time_Table">Time Table</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <article id="Info">
+      <h3>Info.</h3>
+      <hr>
+      <img src="https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/cnoC/image/8imwni7nzZw_Ax4rxhA-K-d1S3g.jpg" width="100">
+      <p>이름: 오제무</p>
+      <p>생년월일: 2006.06.29</p>
+      <p>학교/전공: 명지전문대/컴퓨터공학과</p>
+      <p>학번: 2025107434</p>
+      <p>거주지: 서울시 중랑구</p>
+    </article>
+    
+    <br>
+
+    <article id="Interest">
+      <h3>Interest</h3>
+      <hr>
+      <ul>
+        <li>프론트 엔드(front End)</li>
+        <ul>
+          <li>web</li>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+  
+          <li>app</li>
+          <ul>
+            <li>Objective-C</li>
+            <li>Swift</li>
+            <li>Java</li>
+            <li>Kotlin</li>
+            <li>Flutter</li>
+            <li>React Native</li>
+          </ul>
+  
+        </ul>
+  
+        <li>백 엔드(Back End)</li>
+        <ul>
+          <li>java</li>
+          <li>python</li>
+          <li>JavaScript</li>
+          <li>Rust</li>
+        </ul>
+      </ul>
+    </article>
+    
+    <br>
+
+    <article id="Hobby">
+      <h3>Hobby</h3>
+      <hr>
+      <table border="1">
+        <tr>
+          <td><img src="/webcontents/media/game.png" width="100px"></td>
+          <td><img src="/webcontents/media/headphone.png" width="100px"></td>
+        </tr>
+  
+        <tfoot>
+          <tr>
+            <th>게임</th>
+            <th>음악 감상</th>
+          </tr>
+        </tfoot>
+      </table>
+    </article>
+
+    <br>
+
+    <article id="Time_Table">
+      <h3>Time Table</h3>
+      <hr>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>시간</th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+            <th>목</th>
+            <th>금</th>
+          </tr>
+        </thead>
+      
+        <tbody>
+          <tr>
+            <td>09:00</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+      
+          <tr>
+            <td>10:00</td>
+            <td>-</td>
+            <td rowspan="3">인터넷 콘텐츠 <br> (103/공615)</td>
+            <td>-</td>
+            <td rowspan="3">프로그래밍언어실습1 <br> (103/공603)</td>
+            <td>-</td>
+          </tr>
+      
+          <tr>
+            <td>11:00</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+      
+          <tr>
+            <td>12:00</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+      
+          <tr>
+            <td>13:00</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+      
+          <tr>
+            <td>14:00</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td rowspan="3">컴퓨터과학개론 <br> (103/공507)</td>
+            <td>-</td>
+          </tr>
+      
+          <tr>
+            <td>15:00</td>
+            <td>-</td>
+            <td>-</td>
+            <td rowspan="2">SW개발문제해결능력 <br> (103/공609)</td>
+            <td>-</td>
+          </tr>
+      
+          <tr>
+            <td>16:00</td>
+            <td rowspan="2">컴퓨팅 사고력 <br> (103/공608)</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+      
+          <tr>
+            <td>17:00</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+
+    <br>
+    <hr>
+
+  </section>
+    
+  <br><br>
+
+  <footer>
+    <a href="survey.html">설문조사</a>
+    <p>본 사이트는 상업적 목적이 아닌 개인 포트 폴리오로 제작되었습니다.</p>
+    <p>전화 | 010-4064-7967</p>
+    <p>Copyright (c) 오제무 All rights reserved.</p>
+  </footer>
+</body>
+</html>

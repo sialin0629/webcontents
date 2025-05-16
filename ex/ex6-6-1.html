@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h3>이름 입력</h3>
+  <hr>
+  <script>
+    let ret = prompt("이름을 입력하세요:");
+
+    if(ret == null){
+      document.write("(null 값 오류)이름을 입력해주세요")
+    } 
+    else if(ret == "") {
+      document.write("(공백오류)이름을 입력해주세요")
+    } else {
+      document.write(ret)
+    }
+  </script>
+</body>
+</html>
